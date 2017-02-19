@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>{{ page.title }}</title>
+		<link rel="stylesheet" href="/css/syntax.css" type="text/css" />
+		<link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen, projection" />
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+		<style>
+			#icon li{
+				list-style-type: none;
+				display: inline-block;
+			}
+			img{
+				height: 30px;
+			}
+			#icon{
+				text-align: center;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="title">
+		 <h1>Aishwarya A N</h1>
+		 <hr>
+		</div>
+
+		{{ content }}
+
+		<footer>
+			<ul id="icon">
+				<li>
+					<a href="mailto:aishwarya.an95@gmail.com">
+						<img src="images/mail_lighter.svg" alt="Mail Icon" onmouseover="this.src='images/mail_darker.svg';" onmouseout="this.src='images/mail_lighter.svg';">
+					</a>
+				</li>
+				<li>
+					<a href="https://github.com/aishwarya-an">
+						<img src="images/github_lighter.svg" alt="Github Icon" onmouseover="this.src='images/github_darker.svg';" onmouseout="this.src='images/github_lighter.svg';">
+					</a>
+				</li>
+			</ul>
+		</footer>
+	</body>
+</html>
